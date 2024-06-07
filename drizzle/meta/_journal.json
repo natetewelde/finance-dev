@@ -15,6 +15,20 @@
       "when": 1717446134835,
       "tag": "0001_burly_frightful_four",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1717612838762,
+      "tag": "0002_brainy_typhoid_mary",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1717620980304,
+      "tag": "0003_sleepy_devos",
+      "breakpoints": true
     }
   ]
 }

@@ -16,7 +16,7 @@ const routes = [
   { href: "/settings", label: "Settings" },
 ];
 
-export default function Navigation() {
+export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
   const router = useRouter();

@@ -12,7 +12,6 @@ import {
   FormField,
   FormItem,
   FormLabel,
-  FormMessage,
 } from "@/components/ui/form";
 
 const formSchema = insertAccountSchema.pick({ name: true });
@@ -27,7 +26,7 @@ type Props = {
   disabled?: boolean;
 };
 
-export default function AccountForm({
+export function AccountForm({
   id,
   defaultValues,
   onSubmit,
@@ -78,7 +77,7 @@ export default function AccountForm({
             disabled={disabled}
             onClick={handleDelete}
             className="flex w-full gap-2"
-            variant="outline"
+            variant="destructive"
           >
             <Trash className="size-4" />
             <span className="ml-2">Delete Account</span>

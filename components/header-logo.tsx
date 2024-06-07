@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-export default function HeaderLogo() {
+export function HeaderLogo() {
   return (
     <Link href="/">
       <div className="hidden items-center lg:flex">
